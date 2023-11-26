@@ -17,9 +17,9 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("Images/bg.jpg");
   background-size: cover;
-  display: grid;
-  grid-template-rows: 0.15fr 1fr;
-  gap: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
   color: whitesmoke;
 }
 
@@ -425,10 +425,11 @@ h2 {
 }
 
 .container4 {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .container4 h2 {
@@ -511,7 +512,7 @@ h2 {
 }
 
 .container5 {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -532,6 +533,7 @@ h2 {
 
 .dotCont {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .myProjects a {
@@ -1047,6 +1049,9 @@ footer p {
   .container4{
     height: auto;
     margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
   }
 
   .container5{
@@ -1063,5 +1068,14 @@ footer p {
 
   .contactText p{
     width: 80%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width:1200px){
+  .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
   }
 }
