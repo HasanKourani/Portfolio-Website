@@ -1070,12 +1070,3 @@ footer p {
     width: 80%;
   }
 }
-
-@media (min-width: 1025px) and (max-width:1200px){
-  .container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-}
