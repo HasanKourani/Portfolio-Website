@@ -125,7 +125,6 @@ h2 {
 }
 
 .header a:hover {
-  background-color: whitesmoke;
   color: #04546a;
 }
 
@@ -284,6 +283,7 @@ h2 {
 .circle{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   color: whitesmoke;
@@ -567,7 +567,7 @@ h2 {
   top: 0;
   left: 0;
   position: absolute;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0,0,0,0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -776,12 +776,8 @@ footer h2 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   place-items: center;
-  gap: 40px
-  /* display: flex;
-  flex-direction: column;
-  ;
-  justify-content: center;
-  align-items: center; */
+  gap: 40px;
+  margin-top: 40px;
 }
 
 .footer-a {
@@ -789,6 +785,11 @@ footer h2 {
   text-decoration: none;
   text-align: center;
   max-width: fit-content;
+  transition: 0.3s;
+}
+
+.footer-a:hover{
+  color: #0077b5;
 }
 
 footer p {
