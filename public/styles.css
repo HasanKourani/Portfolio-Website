@@ -148,6 +148,20 @@ h2 {
   height: 440px;
 }
 
+.fa-instagram {
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  border: 2px solid whitesmoke;
+  transition: 0.6s;
+}
+
+.fa-instagram:hover{
+  background-color: #833AB4;
+  color: white;
+}
+
 .fa-linkedin {
   color: whitesmoke;
   padding: 15px;
@@ -269,159 +283,21 @@ h2 {
 }
 
 .container3 {
-  height: 70vh;
+  height: auto;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  gap: 40px;
   background: linear-gradient(300deg, #256d81, #04546a, #02303c);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   width: 100%;
 }
 
-.circle{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  color: whitesmoke;
-  width: 90%;
-}
-
-.wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.htmlCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 95%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.cssCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 90%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.jsCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 78%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.nodeCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 89%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.ejsCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 93%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.mongoCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 84%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.postgresCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 92%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.cppCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 85%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
-
-.reactCircle {
-  width: 100px;
-  height: 100px;
-  border: 10px solid whitesmoke;
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  --mask: linear-gradient(#256d81, #256d81) padding-box,
-    conic-gradient(#256d81 var(--p, 87%), transparent 0%) border-box;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
+.container3 img{
+  margin: 80px 0 80px 0;
+  height: 200px;
 }
 
 .container4 {
