@@ -781,6 +781,10 @@ footer p {
     margin: 10% 0 10% 0;
   }
 
+  .container3 img{
+    width: 100px;
+  }
+
   .circle{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -944,10 +948,19 @@ footer p {
 
   .container5{
     height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .dotCont{
-    margin-bottom: 4%;
+  .image{
+    height: 500px;
+    width: 800px;
+  }
+
+  .prev,.next{
+    font-size: 60px;
   }
 
   .contactText{
