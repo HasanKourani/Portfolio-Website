@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: whitesmoke;
 }
 
@@ -128,7 +128,7 @@ h2 {
   color: #04546a;
 }
 
-.toggle-btn{
+.toggle-btn {
   color: whitesmoke;
   font-size: 1.5rem;
   cursor: pointer;
@@ -137,14 +137,14 @@ h2 {
   display: none;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   display: none;
   height: 0;
   transition: height 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
 }
 
-.dropdown-menu.open{
+.dropdown-menu.open {
   height: 440px;
 }
 
@@ -157,8 +157,8 @@ h2 {
   transition: 0.6s;
 }
 
-.fa-instagram:hover{
-  background-color: #833AB4;
+.fa-instagram:hover {
+  background-color: #833ab4;
   color: white;
 }
 
@@ -171,7 +171,7 @@ h2 {
   transition: 0.6s;
 }
 
-.fa-linkedin:hover{
+.fa-linkedin:hover {
   background-color: #0077b5;
   color: white;
 }
@@ -186,7 +186,7 @@ h2 {
   transition: 0.6s;
 }
 
-.fa-github:hover{
+.fa-github:hover {
   background-color: #171515;
   color: white;
 }
@@ -201,12 +201,12 @@ h2 {
   transition: 0.6s;
 }
 
-.fa-behance:hover{
+.fa-behance:hover {
   background-color: #053eff;
   color: white;
 }
 
-.top{
+.top {
   text-decoration: none;
   background-color: #04546a;
   font-size: 1.8rem;
@@ -225,7 +225,7 @@ h2 {
   border-radius: 20px;
 }
 
-.top:hover{
+.top:hover {
   background-color: #02303c;
 }
 
@@ -263,7 +263,7 @@ h2 {
   box-shadow: 1px 1px 8px black;
   margin: 10px;
   transition: 0.5s;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .profileBtns a {
@@ -289,15 +289,14 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   gap: 40px;
-  background: linear-gradient(300deg, #256d81, #04546a, #02303c);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   width: 100%;
 }
 
-.container3 img{
+.container3 img {
   margin: 80px 0 80px 0;
-  height: 200px;
+  height: 100px;
 }
 
 .container4 {
@@ -379,11 +378,15 @@ h2 {
   justify-content: center;
 }
 
-.org{
+.org {
   transition: 0.5s;
 }
 
-.org:hover{
+.cert {
+  text-decoration: underline !important;
+}
+
+.org:hover {
   color: #256d81;
 }
 
@@ -417,19 +420,19 @@ h2 {
   color: whitesmoke;
 }
 
-.slideshowContainer{
+.slideshowContainer {
   display: flex;
   flex-direction: row;
 }
 
-.image{
+.image {
   width: 960px;
   height: 540px;
   position: relative;
   box-shadow: 1px 1px 22px black;
 }
 
-.image img{
+.image img {
   width: 100%;
   height: 100%;
   display: block;
@@ -437,13 +440,13 @@ h2 {
   object-fit: cover;
 }
 
-.content{
+.content {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   position: absolute;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,24 +455,23 @@ h2 {
   transition: 0.6s;
 }
 
-.content:hover{
+.content:hover {
   opacity: 1;
 }
 
-.content h3{
+.content h3 {
   font-size: 2rem;
   color: white;
 }
 
-.content > *{
+.content > * {
   transform: translateY(100px);
   transition: transform 0.6s;
 }
 
-.content:hover > *{
+.content:hover > * {
   transform: translateY(0px);
 }
-
 
 .prev {
   font-size: 50px;
@@ -508,7 +510,7 @@ h2 {
   background-color: whitesmoke;
   border-radius: 50%;
   display: inline-block;
-  transition: 0.6s ;
+  transition: 0.6s;
 }
 
 .active,
@@ -537,22 +539,22 @@ h2 {
   justify-content: space-around;
 }
 
-.contactText{
+.contactText {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #04546a;
 }
 
-.fa-envelope{
+.fa-envelope {
   margin-right: 8px;
 }
 
-.fa-mobile-phone{
+.fa-mobile-phone {
   margin-right: 12px;
 }
 
-.contactForm{
+.contactForm {
   width: 540px;
   display: flex;
   flex-direction: column;
@@ -560,11 +562,11 @@ h2 {
   gap: 28px;
 }
 
-.contactForm input{
-  font-family: 'Oswald', sans-serif;
+.contactForm input {
+  font-family: "Oswald", sans-serif;
 }
 
-#fname{
+#fname {
   border: none;
   background: none;
   border-bottom: 1px solid #04546a;
@@ -574,7 +576,7 @@ h2 {
   padding: 8px;
 }
 
-#email{
+#email {
   border: none;
   background: none;
   border-bottom: 1px solid #04546a;
@@ -584,7 +586,7 @@ h2 {
   padding: 8px;
 }
 
-#subject{
+#subject {
   border: none;
   background: none;
   border-bottom: 1px solid #04546a;
@@ -594,7 +596,7 @@ h2 {
   padding: 8px;
 }
 
-#message{
+#message {
   background: none;
   border: 1px solid #04546a;
   font-size: 1.4em;
@@ -602,7 +604,7 @@ h2 {
   color: #04546a;
   padding: 8px;
   resize: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .submit {
@@ -625,9 +627,9 @@ h2 {
   box-shadow: 1px 1px 15px #256d81;
 }
 
-::placeholder{
+::placeholder {
   color: #04546a;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 footer {
@@ -647,7 +649,7 @@ footer h2 {
   margin-top: 40px;
 }
 
-.footer-links{
+.footer-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -664,7 +666,7 @@ footer h2 {
   transition: 0.3s;
 }
 
-.footer-a:hover{
+.footer-a:hover {
   color: #0077b5;
 }
 
@@ -674,17 +676,17 @@ footer p {
   margin-top: 75px;
 }
 
-.copy{
+.copy {
   margin-right: 1px;
 }
 
-@media (min-width: 320px) and (max-width:768px){
-  body{
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
     margin: 0;
     padding: 0;
   }
-  
-  .container{
+
+  .container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -692,21 +694,21 @@ footer p {
     height: auto;
   }
 
-  .header{
+  .header {
     border: none;
     display: block;
   }
 
-  .header .deskView{ 
+  .header .deskView {
     display: none;
   }
 
-  .header a:hover{
+  .header a:hover {
     background: none;
     color: whitesmoke;
   }
 
-  .header .toggle-btn{
+  .header .toggle-btn {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -714,7 +716,7 @@ footer p {
     margin-top: 3%;
   }
 
-  .dropdown-menu{
+  .dropdown-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -724,30 +726,31 @@ footer p {
     margin-top: 5%;
   }
 
-  .mainPage{
+  .mainPage {
     width: 100%;
   }
 
-  .mouse-icon{
+  .mouse-icon {
     display: none;
   }
 
-  .top{
+  .top {
     position: absolute;
     right: 5px;
     bottom: 52px;
     position: fixed;
   }
 
-  .socials-cont{
+  .socials-cont {
     margin-bottom: 10%;
   }
 
-  #element,#element1{
+  #element,
+  #element1 {
     font-size: 1rem;
   }
 
-  .container2{
+  .container2 {
     height: auto;
     width: 100%;
     display: flex;
@@ -756,50 +759,58 @@ footer p {
     align-items: center;
   }
 
-  .container2 p{
+  .container2 p {
     max-width: 80%;
   }
 
-  .profileBtns{
+  .profileBtns {
     margin-bottom: 10%;
     padding: 12px;
     margin: 4px;
   }
 
-  .profileBtns a{
+  .profileBtns a {
     font-size: 12px;
     text-align: center;
   }
 
-  .container2 img{
+  .container2 img {
     margin-top: 10%;
   }
 
-  .container3{
+  .container3 {
     height: auto;
     width: 100%;
     margin: 10% 0 10% 0;
   }
 
-  .container3 img{
+  .container3 img {
     width: 100px;
   }
 
-  .circle{
+  .circle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin-bottom: 4%;
   }
 
-  .htmlCircle,.cssCircle,.jsCircle,.nodeCircle,.ejsCircle,.postgresCircle,.reactCircle,.cppCircle,.mongoCircle{
+  .htmlCircle,
+  .cssCircle,
+  .jsCircle,
+  .nodeCircle,
+  .ejsCircle,
+  .postgresCircle,
+  .reactCircle,
+  .cppCircle,
+  .mongoCircle {
     width: 70px;
     height: 70px;
     border: 5px solid whitesmoke;
     font-size: 0.8rem;
   }
 
-  .container4{
+  .container4 {
     width: 100%;
     height: auto;
     display: flex;
@@ -809,18 +820,21 @@ footer p {
     margin-bottom: 20px;
   }
 
-  .education, .experience{
+  .education,
+  .experience {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .uni, .udemy, .cdint{
+  .uni,
+  .udemy,
+  .cdint {
     width: 70%;
   }
 
-  .container5{
+  .container5 {
     height: auto;
     width: 100%;
     display: flex;
@@ -828,60 +842,65 @@ footer p {
     justify-content: center;
   }
 
-  .cont5{
+  .cont5 {
     width: 100%;
   }
 
-  .prev{
+  .prev {
     margin-right: 20px;
   }
 
-  .next{
+  .next {
     margin-left: 20px;
   }
 
-  .image{
+  .image {
     height: 240px;
     width: 240px;
   }
 
-  .prev,.next{
+  .prev,
+  .next {
     font-size: 28px;
   }
 
-  .dot{
+  .dot {
     height: 10px;
     width: 10px;
     margin-bottom: 10%;
   }
-  
-  .container6{
+
+  .container6 {
     height: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
   }
 
-  .contactText{
+  .contactText {
     margin: 0px 0px 16px 16px;
   }
 
-  .contactText h2,p{
+  .contactText h2,
+  p {
     width: 80%;
   }
 
-  .contactForm{
+  .contactForm {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
 
-  #fname,#email,#subject,#message{
+  #fname,
+  #email,
+  #subject,
+  #message {
     width: 80%;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -890,7 +909,7 @@ footer p {
     gap: 50px;
   }
 
-  footer h2{
+  footer h2 {
     display: block;
     text-align: center;
     justify-self: center;
@@ -898,47 +917,45 @@ footer p {
     margin-left: 0;
   }
 
-  .footer-links{
+  .footer-links {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
 
-  footer p{
+  footer p {
     margin-top: 0;
   }
 }
 
-@media (min-width: 769px) and (max-width:1024px){
-
-  .container{
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
   }
 
-  .header{
+  .header {
     gap: 32px;
   }
 
-  .mouse-icon{
+  .mouse-icon {
     margin-bottom: 10%;
   }
 
-  .container3{
+  .container3 {
     height: auto;
   }
 
-  .circle{
+  .circle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 4%;
   }
-  
 
-  .container4{
+  .container4 {
     height: auto;
     margin-bottom: 4%;
     display: flex;
@@ -946,7 +963,7 @@ footer p {
     justify-content: unset;
   }
 
-  .container5{
+  .container5 {
     height: auto;
     width: 100%;
     display: flex;
@@ -954,20 +971,21 @@ footer p {
     justify-content: center;
   }
 
-  .image{
+  .image {
     height: 500px;
     width: 800px;
   }
 
-  .prev,.next{
+  .prev,
+  .next {
     font-size: 60px;
   }
 
-  .contactText{
+  .contactText {
     margin-left: 1%;
   }
 
-  .contactText p{
+  .contactText p {
     width: 80%;
   }
 }

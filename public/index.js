@@ -57,8 +57,8 @@ const toggleBtnIcon = document.querySelector(".toggle-btn i");
 const dropDownMenu = document.querySelector(".dropdown-menu");
 
 toggleBtn.onclick = function () {
-  dropDownMenu.classList.toggle('open');
-  const isOpen = dropDownMenu.classList.contains('open');
+  dropDownMenu.classList.toggle("open");
+  const isOpen = dropDownMenu.classList.contains("open");
 
-  toggleBtnIcon.classList = isOpen ? 'fa fa-close' : 'fa fa-bars'
-}
+  toggleBtnIcon.classList = isOpen ? "fa fa-close" : "fa fa-bars";
+};

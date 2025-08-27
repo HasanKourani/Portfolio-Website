@@ -18,30 +18,29 @@ app.get("/", (req, res) => {
 app.post("/email", async (req, res) => {
   console.log(req.body);
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: "hasankoura8@gmail.com",
-        pass: "vejm nmgs kmzh hmmy",
-      },
-    });
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: "hasankoura8@gmail.com",
+      pass: "vejm nmgs kmzh hmmy",
+    },
+  });
 
-    const mailOptions = {
-      from: req.body.email,
-      to: "hasankoura8@gmail.com",
-      subject: `Message from ${req.body.email}: ${req.body.subject}`,
-      text: req.body.message,
-    };
+  const mailOptions = {
+    from: req.body.email,
+    to: "hasankoura8@gmail.com",
+    subject: `Message from ${req.body.email}: ${req.body.subject}`,
+    text: req.body.message,
+  };
 
-    transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log("Email sent: " + info.response);
-        
-      }
-    });
-    res.redirect('/');
+  transporter.sendMail(mailOptions, function (error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Email sent: " + info.response);
+    }
+  });
+  res.redirect("/");
 });
 
 app.listen(port, () => {
