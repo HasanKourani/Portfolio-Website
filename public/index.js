@@ -1,6 +1,6 @@
 //typewriter function start
 var typed = new Typed("#element", {
-  strings: ["MOHAMMAD HASAN KOURANI"],
+  strings: ["HASAN KOURANI"],
   typeSpeed: 150,
   backSpeed: 50,
   loop: true,

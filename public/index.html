@@ -28,7 +28,7 @@
     />
     <link
       rel="shortcut icon"
-      href="Images/Logo circle.png"
+      href="Images/LinkedIn profile.png"
       type="image/x-icon"
     />
     <title>Hasan Kourani | Portfolio</title>
@@ -71,7 +71,7 @@
           >
           </a>
           <a
-            href="https://www.instagram.com/techdevcentre.lb/"
+            href="https://www.instagram.com/hasankouranii/"
             class="fa fa-instagram"
             target="_blank"
           >
@@ -103,15 +103,76 @@
       </div>
     </div>
 
-    <div class="container3" id="skills">
-      <img src="Images/Node.js logo.svg" alt="nodejs logo" />
-      <img src="Images/logo-javascript.svg" alt="JavaScript logo" />
-      <img src="Images/React icon.svg" alt="React logo" />
-      <img src="Images/JavaLogo.png" alt="Java logo" />
-      <img src="Images/SpringLogo.png" alt="SpringBoot logo" />
-      <img src="Images/NetcoreLogo.png" alt=".Net logo" />
-      <img src="Images/mysql-official.svg" alt="mysql logo" />
-      <img src="Images/MongoDB Logo.svg" alt="MongoDB logo" />
+    <div class="container5" id="projects">
+      <div class="cont5">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <div class="slideshowContainer">
+          <div class="myProjects fade">
+            <a href="https://mytodolist-bl02.onrender.com/" target="_blank">
+              <div class="image">
+                <img src="Images/ToDoList.png" alt="ToDoList" />
+                <div class="content">
+                  <h3>To-Do List Web App</h3>
+                  <p>
+                    A To-Do List web app done using NodeJS, ExpressJS, and
+                    MongoDB
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="myProjects fade">
+            <a href="ecommerce.html">
+              <div class="image">
+                <img src="Images/Ecommerce.png" alt="E-commerce" />
+                <div class="content">
+                  <h3>Cars E-Commerce Website</h3>
+                  <p>
+                    A full e-commerce website made for a car dealership with
+                    full admin control.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="myProjects fade">
+            <a href="socialPlatform.html">
+              <div class="image">
+                <img src="Images/3.png" alt="Social Platform" />
+                <div class="content">
+                  <h3>Programmers Social Media Platform</h3>
+                  <p>
+                    A social media platform made for programmers to help each
+                    other solve problems and showcase their skills and projects
+                    to each other.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="myProjects fade">
+            <a href="https://hasankourani.github.io/TinDog/" target="_blank">
+              <div class="image">
+                <img src="Images/TinDog.png" alt="Tin Dog" />
+                <div class="content">
+                  <h3>TinDog</h3>
+                  <p>
+                    A dogs dating concept website named TinDog. Made using HTML
+                    and Bootstrap
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="dotCont">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
     </div>
 
     <div class="container4" id="resume">
@@ -168,66 +229,15 @@
       </div>
     </div>
 
-    <div class="container5" id="projects">
-      <div class="cont5">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <div class="slideshowContainer">
-          <div class="myProjects fade">
-            <a href="https://mytodolist-bl02.onrender.com/" target="_blank">
-              <div class="image">
-                <img src="Images/ToDoList.png" alt="ToDoList" />
-                <div class="content">
-                  <h3>To-Do List Web App</h3>
-                  <p>
-                    A To-Do List web app done using NodeJS, ExpressJS, and
-                    MongoDB
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="myProjects fade">
-            <a
-              href="https://hasankourani.github.io/Holistic-Health-Hub/"
-              target="_blank"
-            >
-              <div class="image">
-                <img
-                  src="Images/HolisticHealthHub.jpg"
-                  alt="HolisticHealthHub"
-                />
-                <div class="content">
-                  <h3>HolisticHealthHub</h3>
-                  <p>
-                    A simple landing page for a concept pharmacy website named
-                    HolisticHealthHub. Made using HTML and CSS
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="myProjects fade">
-            <a href="https://hasankourani.github.io/TinDog/" target="_blank">
-              <div class="image">
-                <img src="Images/TinDog.png" alt="Tin Dog" />
-                <div class="content">
-                  <h3>TinDog</h3>
-                  <p>
-                    A dogs dating concept website named TinDog. Made using HTML
-                    and Bootstrap
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="dotCont">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+    <div class="container3" id="skills">
+      <img src="Images/Node.js logo.svg" alt="nodejs logo" />
+      <img src="Images/logo-javascript.svg" alt="JavaScript logo" />
+      <img src="Images/React icon.svg" alt="React logo" />
+      <img src="Images/JavaLogo.png" alt="Java logo" />
+      <img src="Images/SpringLogo.png" alt="SpringBoot logo" />
+      <img src="Images/NetcoreLogo.png" alt=".Net logo" />
+      <img src="Images/mysql-official.svg" alt="mysql logo" />
+      <img src="Images/MongoDB Logo.svg" alt="MongoDB logo" />
     </div>
 
     <div class="container6" id="contact">
@@ -286,7 +296,7 @@
     </div>
 
     <footer>
-      <h2>Mohammad Hasan Kourani</h2>
+      <h2>Hasan Kourani</h2>
       <div class="footer-links">
         <a class="footer-a" href="#about">About Me</a>
         <a class="footer-a" href="#contact">Contact Me</a>
